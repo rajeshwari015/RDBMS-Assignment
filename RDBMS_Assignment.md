@@ -1,5 +1,5 @@
 # MS-AU 2020 RDBMS 1 Assignment 
-
+ 
 ## Topic : Data Modelling and ER Diagrams
 
 ### Task 1 : Create a conceptual and logical and physical data model using ER diagram for UBER (Ride sharing app).
@@ -33,7 +33,7 @@ SELECT DISTINCT column, AGG_FUNC(column_or_expression), ...
        LIMIT count OFFSET COUNT;
 ```
 
- * Answer - The order of execution of the above sql query is as follows -  
+* Answer - The order of execution of the above sql query is as follows -  
   * from
   * join
   * where
