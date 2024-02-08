@@ -257,6 +257,9 @@ END;
 EXEC UpdateWalletBal @UserID = 1, @Amount = 250;
 ```
 
+### Screenshot of Updated wallet_balnce 
+![Final_output](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Final_output.jpeg)
+
 ### Task 5:Write the correct SQL execution order for the following SELECT query.
                
 ``` sql
