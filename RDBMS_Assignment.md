@@ -7,9 +7,11 @@
 ### Conceptual Data Model for UBER
 
 ### Logical Data Model for UBER
+! [Logical_model] 
+
 
 ### Physical Data Model for UBER
-! [Alt txt] https://drive.google.com/file/d/1AyKn9VEpqVv1JQGQjrZVUOtn9D9eVJnH/view?usp=sharing
+! [Physical_model] https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Physical_schema.jpeg
 
 ## Topic : SQL Statements
 
@@ -31,7 +33,15 @@ SELECT DISTINCT column, AGG_FUNC(column_or_expression), ...
        LIMIT count OFFSET COUNT;
 ```
 
- * Answer - The order of execution of the above sql query is as follows -  from, join, where, group_by, Having, select, order_by, limit offset
+ * Answer - The order of execution of the above sql query is as follows -  
+  * from
+  * join
+  * where
+  * group_by
+  * Having
+  * select
+  * order_by
+  * limit offset
 
 ## Topic : Functions and Procedures 
 
@@ -96,13 +106,17 @@ GO
 EXEC dbo.CalculateFactorialProcedure @InputValue = $(InputValue);
 ``` 
 
-## Comamnd to run the above code
+### Comamnd to run the above code
 
 ### sqlcmd -S BLR-HYSN763\RAJESHWARI -d Factorial -v InputValue=n -i "C:\Users\pavuluri.r_INT1573\Documents\SQL Server Management Studio\Factorial.sql"
 
 > **Note:** Replace the value of n with the input for whcih you want to find the factorial and also with your respective server name and destination of your sql file.
 
 ### Task 7: Execute the function with multiple values as a test case
+
+## Screenshots of output in sqlcmd 
+
+![SS]https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Screen_shot.PNG
 
 ### The output format is as below.
 
@@ -114,7 +128,7 @@ EXEC dbo.CalculateFactorialProcedure @InputValue = $(InputValue);
 
 ### 1.) What is a tuple equivalent to in SQL?
 
-* Ans-  A ROw in the table
+* Ans-  A row in the table
 
 ### 2.) How many NULL value that Unique key can have?
 
