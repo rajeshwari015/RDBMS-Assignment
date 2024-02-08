@@ -4,14 +4,14 @@
 
 ### Task 1 : Create a conceptual and logical and physical data model using ER diagram for UBER (Ride sharing app).
 
-### Conceptual Data Model for UBER
+## Conceptual Data Model for UBER 
 ![Conceptual_model](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/conceptual_schema.jpeg)
 
-### Logical Data Model for UBER
+## Logical Data Model for UBER
 ![Logical_model](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Logical_schema.jpeg)
 
 
-### Physical Data Model for UBER
+## Physical Data Model for UBER
 ![Physical_model](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Physical_schema.jpeg)
 
 ## Topic : SQL Statements
