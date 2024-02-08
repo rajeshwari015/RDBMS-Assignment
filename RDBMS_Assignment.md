@@ -9,6 +9,7 @@
 ### Logical Data Model for UBER
 
 ### Physical Data Model for UBER
+![Alt txt] https://drive.google.com/file/d/1AyKn9VEpqVv1JQGQjrZVUOtn9D9eVJnH/view?usp=sharing
 
 ## Topic : SQL Statements
 
