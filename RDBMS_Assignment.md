@@ -7,7 +7,7 @@
 ### Conceptual Data Model for UBER
 
 ### Logical Data Model for UBER
-! [Logical_model] 
+![Logical_model](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Logical_schema.jpeg)
 
 
 ### Physical Data Model for UBER
@@ -116,7 +116,7 @@ EXEC dbo.CalculateFactorialProcedure @InputValue = $(InputValue);
 
 ## Screenshots of output in sqlcmd 
 
-![SS]https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Screen_shot.PNG
+![SS](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Screen_shot.PNG)
 
 ### The output format is as below.
 
