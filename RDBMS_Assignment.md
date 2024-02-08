@@ -27,7 +27,8 @@ SELECT DISTINCT column, AGG_FUNC(column_or_expression), ...
       GROUP BY column 
      HAVING constraint_expression 
       ORDER BY column ASC/DESC 
-      LIMIT count OFFSET COUNT; ```
+      LIMIT count OFFSET COUNT;
+```
 
  * The order of execution of the above sql query is as follows -  from, join, where, group_by, Having, select, order_by, limit offset
 
@@ -91,11 +92,12 @@ GO
 -- Execute the procedure with the input value
 EXEC dbo.CalculateFactorialProcedure @InputValue = $(InputValue);
 
-``` sql
+``` 
 
 ## Comamnd to run the above code
 
 ### sqlcmd -S BLR-HYSN763\RAJESHWARI -d Factorial -v InputValue=n -i "C:\Users\pavuluri.r_INT1573\Documents\SQL Server Management Studio\Factorial.sql"
+
 > **Note:** Replace the value of n with the input for whcih you want to find the factorial and also with your respective server name and destination of your sql file.
 
 ### Task 7: Execute the function with multiple values as a test case
