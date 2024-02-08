@@ -23,14 +23,14 @@
 SELECT DISTINCT column, AGG_FUNC(column_or_expression), ...  
   FROM mytable 
        JOIN another_table ON mytable.column = another_table.column 
-      WHERE constraint_expression 
-      GROUP BY column 
-     HAVING constraint_expression 
-      ORDER BY column ASC/DESC 
-      LIMIT count OFFSET COUNT;
+       WHERE constraint_expression 
+       GROUP BY column 
+       HAVING constraint_expression 
+       ORDER BY column ASC/DESC 
+       LIMIT count OFFSET COUNT;
 ```
 
- * The order of execution of the above sql query is as follows -  from, join, where, group_by, Having, select, order_by, limit offset
+ * Answer - The order of execution of the above sql query is as follows -  from, join, where, group_by, Having, select, order_by, limit offset
 
 ## Topic : Functions and Procedures 
 
@@ -65,7 +65,7 @@ BEGIN
     -- This is the base case if the value is 0 or 1
     IF @Number = 0
     BEGIN
-RETURN 1;
+        RETURN 1;
     END;
 
     -- Recursive case to calculate the factorial
@@ -82,16 +82,17 @@ BEGIN
 
     -- Calculate factorial using the function
     SET @Factorial = dbo.CalculateFactorial(@InputValue);
--- Print the result
+
+    -- Print the result
     IF @Factorial = -1
         PRINT 'Input value cannot be negative.';
     ELSE
         PRINT 'The factorial of ' + CAST(@InputValue AS NVARCHAR(50)) + ' is ' + CAST(@Factorial AS NVARCHAR(50));
 END;
 GO
+
 -- Execute the procedure with the input value
 EXEC dbo.CalculateFactorialProcedure @InputValue = $(InputValue);
-
 ``` 
 
 ## Comamnd to run the above code
@@ -109,4 +110,33 @@ EXEC dbo.CalculateFactorialProcedure @InputValue = $(InputValue);
 * The factorial of 2 is 2
 
 ## MCQS
+
+### 1.) What is a tuple equivalent to in SQL?
+
+* Ans-  A ROw in the table
+
+### 2.) How many NULL value that Unique key can have?
+
+* Ans- 1
+
+### 3.) Which Join is used to get only match tuples?
+
+* Ans- Inner join
+
+### 4.) Which is the king of Aggregate function?
+
+* Ans- MIN
+
+### 5.) Which are the TRANSACTION control commands?
+
+* Ans- All the above
+
+### 6.) When a program is abnormally terminated in a transaction,which of the following command occurs?
+
+* Ans- Rollback
+
+### 7.) What is wrong with the following query?
+### Select V_ID,P_ID,P_DESC,P_RATE rate FROM TABLE1 GROUP BY V_ID
+
+* Ans- No Aggregate function is used
 
