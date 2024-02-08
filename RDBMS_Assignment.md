@@ -11,7 +11,7 @@
 
 
 ### Physical Data Model for UBER
-! [Physical_model](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Physical_schema.jpeg)
+![Physical_model](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Physical_schema.jpeg)
 
 ## Topic : SQL Statements
 
