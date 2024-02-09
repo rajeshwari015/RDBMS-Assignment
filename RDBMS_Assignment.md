@@ -386,7 +386,7 @@ EXEC dbo.CalculateFactorialProcedure @InputValue = $(InputValue);
 
 * Ans- Inner join
 
-### 4.) Which is the king of Aggregate function?
+### 4.) Which is the kind of Aggregate function?
 
 * Ans- MIN
 
