@@ -376,31 +376,38 @@ EXEC dbo.CalculateFactorialProcedure @InputValue = $(InputValue);
 
 ### 1.) What is a tuple equivalent to in SQL?
 
-* Ans-  A row in the table
+**Ans-**  A row in the table
 
 ### 2.) How many NULL value that Unique key can have?
 
-* Ans- 1
+**Ans-** 1
 
 ### 3.) Which Join is used to get only match tuples?
 
-* Ans- Inner join
+**Ans-** Inner join
 
 ### 4.) Which is the kind of Aggregate function?
 
-* Ans- MIN
+**Ans-** MIN
 
 ### 5.) Which are the TRANSACTION control commands?
-* a.) Commit b.)Savepoint c.) Rollback d.) All the above 
+* a.) Commit
+* b.)Savepoint
+* c.) Rollback
+* d.) All the above 
 
-* Ans- All the above
+**Ans-** All the above
 
 ### 6.) When a program is abnormally terminated in a transaction,which of the following command occurs?
 
-* Ans- Rollback
+**Ans-** Rollback
 
 ### 7.) What is wrong with the following query?
 ### Select V_ID,P_ID,P_DESC,P_RATE rate FROM TABLE1 GROUP BY V_ID
-* a.) No Aggregate function is used b.)No where cluase is specified c.)Alias is only for one column d.) Nothing is wrong 
-* Ans- No Aggregate function is used
+ * a.) No Aggregate function is used 
+ * b.)No where cluase is specified
+ * c.)Alias is only for one column
+ * d.) Nothing is wrong 
+
+  **Ans-** No Aggregate function is used
 
