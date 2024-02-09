@@ -8,11 +8,11 @@
 ![Conceptual_model](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Conceptual_schema.jpeg)
 
 ## Logical Data Model for UBER
-![Logical_model](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Logical_schema.jpeg)
+![Logical_model](https://github.com/rajeshwari015/RDBMS-Assignment/blob/main/Log_schema.jpeg)
 
 
 ## Physical Data Model for UBER
-![Physical_model](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Physical_schema.jpeg)
+![Physical_model](https://github.com/rajeshwari015/RDBMS-Assignment/blob/main/Phy_schema.jpeg)
 
 ## Topic : SQL Statements
 
