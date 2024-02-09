@@ -255,10 +255,18 @@ BEGIN
 END;
 
 EXEC UpdateWalletBal @UserID = 1, @Amount = 250;
+select * from passenger;
 ```
 
 ### Screenshot of Updated wallet_balnce 
 ![Final_output](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Final_output.jpeg)
+
+### Screenshot of the initial passenger table
+![Initial](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/Initial.jpeg)
+
+### Screenshot of updated passenger table
+![updated](https://raw.githubusercontent.com/rajeshwari015/RDBMS-Assignment/main/After_update.jpeg)
+
 
 ### Task 5:Write the correct SQL execution order for the following SELECT query.
                
