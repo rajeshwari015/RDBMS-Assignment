@@ -370,7 +370,33 @@ EXEC dbo.CalculateFactorialProcedure @InputValue = $(InputValue);
 
 * The factorial of 10 is 3628800
 * The factorial of 5 is 120
-* The factorial of 2 is 2
+
+## Approach-2 Iterative 
+``` sql
+CREATE FUNCTION dbo.CalculateFactorial (@Number INT)
+RETURNS BIGINT
+AS
+BEGIN
+    DECLARE @Result BIGINT = 1;
+    DECLARE @Counter INT = 1;
+
+    WHILE @Counter <= @Number
+    BEGIN
+        SET @Result = @Result * @Counter;
+        SET @Counter = @Counter + 1;
+    END;
+
+    RETURN @Result;
+END;
+
+SELECT dbo.CalculateFactorial(5);
+SELECT dbo.CalculateFactorial(2);
+SELECT dbo.CalculateFactorial(4);
+```
+### Output 
+* 120
+* 2
+* 24
 
 ## MCQS
 
