@@ -1,4 +1,4 @@
-# MS-AU 2020 RDBMS 1 Assignment 
+# RDBMS 1 Assignment 
  
 ## Topic : Data Modelling and ER Diagrams
 
