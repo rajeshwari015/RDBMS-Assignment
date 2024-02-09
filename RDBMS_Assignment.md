@@ -391,6 +391,7 @@ EXEC dbo.CalculateFactorialProcedure @InputValue = $(InputValue);
 * Ans- MIN
 
 ### 5.) Which are the TRANSACTION control commands?
+* a.) Commit b.)Savepoint c.) Rollback d.) All the above 
 
 * Ans- All the above
 
@@ -400,6 +401,6 @@ EXEC dbo.CalculateFactorialProcedure @InputValue = $(InputValue);
 
 ### 7.) What is wrong with the following query?
 ### Select V_ID,P_ID,P_DESC,P_RATE rate FROM TABLE1 GROUP BY V_ID
-
+* a.) No Aggregate function is used b.)No where cluase is specified c.)Alias is only for one column d.) Nothing is wrong 
 * Ans- No Aggregate function is used
 
